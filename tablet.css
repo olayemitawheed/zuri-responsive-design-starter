@@ -1,0 +1,72 @@
+@media screen and (max-width: 768px) {
+    
+    .toggle-button {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem 2rem;
+    }
+
+    .nav-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        text-align: center;
+    }
+
+    .nav-links li a {
+        padding: .5rem 1rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    div.hero-section {
+        padding: 5rem;
+        }
+
+    div.hero-background {
+        padding: 5rem;
+        }
+
+    div.background h4 {
+        text-align: center;
+        padding: 1.5rem;
+        }
+
+    div.background p {
+        padding: 0rem;
+        }
+
+    div.hero-background-pos {
+        display: none;        
+        }
+        
+    div.footer-input {
+        padding-top: 2rem;
+        }
+
+    input[type="text"] {
+        padding: 10px 7.5px;
+        }
+        
+    input[type="email"] {
+        padding: 10px 7.5px;
+        }
+        
+    div.footer h6 {
+        padding-top: 2rem;
+        }    
+    
+    }

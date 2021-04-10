@@ -1,0 +1,190 @@
+@media screen and (max-width: 425px) {
+    
+    .toggle-button {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem 1rem;
+    }
+
+    .nav-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        text-align: center;
+    }
+
+    .nav-links li a {
+        padding: .5rem 1rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    div.hero-section {
+        background: #304353;
+        padding: 0.7rem;
+        }
+       
+    div.hero-content-heading h3 {
+        padding-top: 1rem;
+        font-size: 1rem;
+        }
+        
+    div.hero-content-heading p {
+        padding-top: 0.7rem;
+        font-size: 0.75rem;
+        letter-spacing: 1px;
+        }
+        
+    div.hero-content-btn {
+        display: flex;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        }
+        
+    div.hero-content-btn a {
+        font-size: 0.75rem;
+        padding: 5px 15px;
+        }
+
+    div.hero-background {
+        padding: 2rem;
+        }
+    
+    div.background {
+        padding: 1rem;
+        }
+
+    div.background h4 {
+        padding: 1rem;
+        font-size: 1rem;
+        }
+        
+    div.background p {
+        padding: 0;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        }
+        
+    div.hero-background-pos {
+        display: none;
+        }
+        
+    div.snapshot-team {
+        padding-top: 1rem;
+        }
+        
+    div.snapshot-team h2 {
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+        }
+        
+    div.snapshot-team p {
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+        padding: 0.8rem;
+        }      
+
+    div.snapshot-box {
+        padding: 2rem 3rem;
+        }
+
+    div.snapshot-box-content {
+        flex-direction: column;
+        }
+
+    div.gallery-content h4 {
+        font-size: 1.2rem;
+        }
+    
+    div.gallery-section {
+        padding: 2rem;
+        }
+
+    div.gallery-content p {
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        }
+        
+    div.gallery-img {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       padding-top: 1.5rem;
+        }
+        
+    div.img {
+        margin: 10px;
+        }
+        
+    div.img img {
+        width: 250px;
+        height: 180px;
+        }
+        
+    div.footer-content h4 {
+        font-size: 1.2rem;
+        }
+    
+    div.footer {
+        padding: 2rem;
+        }
+
+    div.footer-content p {
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        padding-top: 0.8rem;
+        }
+        
+    div.footer-input {
+        padding-top: 1rem;
+        flex-direction: column;
+        }
+        
+    input[type="text"] {
+        margin-right: 0px;
+        width: 100%;
+        font-size: 0.8rem;
+        }
+        
+    input[type="email"] {
+        margin-top: 1rem;
+        margin-right: 0px;
+        width: 100%;
+        font-size: 0.8rem;
+        }
+
+    div.footer-textarea {
+        padding-top: 1rem;
+        }
+        
+    textarea {
+        width: 100%;
+        }
+        
+    div.footer-btn {
+        padding-top: 1.5rem;
+        }
+        
+    div.footer-btn a {
+        font-size: 0.75rem;
+        padding: 5px 25px;
+        }
+        
+    div.footer h6 {
+        font-size: 0.8rem;
+        padding-top: 1.5rem;
+        }
+    }
